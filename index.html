@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you deserve to live?</title>
+
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        button {
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            border: none;
+            background-color: gray;
+            border-radius: 5px;
+            color: white;
+            margin: 2px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <script>
+
+        function no() {
+            document.writeln("<h1>Done hogaya! Pack your bags we going on a date!</h1>");
+        }
+
+        function yes() {
+            document.writeln("<h1>:( ok.</h1>");
+        }
+
+    </script>
+
+    <section id="mainContainer">
+
+        <h1 id="question">Valentine Quiz</h1>
+        <h3 id="question">Nomination for my date on February 14th is now official open.</h3>
+
+        <div id="buttonDrawer">
+            <button id="yes" onclick="no()">Accept.</button>
+            <button id="no" onclick="yes()">Forfeit.</button>
+        </div>
+
+    </section>
+    
+</body>
+</html>
